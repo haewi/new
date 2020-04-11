@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+#include <math.h>
 #define MAX_ITEM 5
+
 
 typedef struct st_item{
     int no;		 //상품 번호     
@@ -26,3 +29,6 @@ int  i_getno(T_Record* p);   // 특정 상품 레코드의 상품번호  가져�
 void i_init();
 char* i_to_string_save(T_Record* p);
 void i_to_nolist(T_Record* a[]);
+int timecheck(T_Record*p);
+int CalcDate(int month, int day);
+void checkstock(T_Record*p);
