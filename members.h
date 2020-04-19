@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <math.h>
-#define MAX_ITEM 5
+#define MAX_ITEM 50
 
 
 typedef struct st_item{

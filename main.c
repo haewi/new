@@ -14,11 +14,11 @@ void Stock_check_Add();
 int main(){
         int menu;
         while(1){
-                printf("\nMenu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Expiration date check 9.Stock check & Add 10.no_list 0.Quit > ");
+                printf("\nMenu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Exdate_check 9.Stock_check_Add 10.no_list 0.Quit > ");
                 scanf("%d", &menu);
                 printf("\n");
                 switch(menu){
-                        i_init();
+                
                         case 1:
                                 create_record();
                                 break;
@@ -55,6 +55,7 @@ int main(){
                                 break;     
                         
                         case 10:
+                                
                                 no_list();
                                 break;
                         
@@ -142,7 +143,7 @@ void delete_record(){
         printf("The record is deleted!\n");
     }
     else {
-        printf("No such item!\n");
+        printf("No such member!\n");
     }
 }
 
@@ -228,7 +229,6 @@ void Stock_check_Add(){
     printf("Enter a name > ");
     scanf("%s", name);
     T_Record* p = i_search_by_name(name);
-    if(p) checkstock(p);
-    else printf("No such item!\n");
+    checkstock(p);
 }
 
