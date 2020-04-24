@@ -47,10 +47,10 @@ void i_delete(T_Record* p){
         if(goods[i]==p) {
             for(j=i; j<_count-1; j++) goods[i] = goods[j+1];
             _count--;
-            goods[_count]=NULL;
-        
+            goods[_count]=NULL; 
         }
     }
+    free(p);
   }  
 
 
