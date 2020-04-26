@@ -1,0 +1,26 @@
+Menu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Exdate_check 9.Stock_check_Add 10.no_list 0.Quit > 1
+
+Enter a new member's info.
+Name > milk
+NO > 1
+Stocks > 10
+Expiration date > 2020030
+1
+Menu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Exdate_check 9.Stock_check_Add 10.no_list 0.Quit > 3
+
+Enter a name > milk
+Enter a updated info.
+No > 2
+Stock > 20
+Expiration Date > 20200505
+
+Menu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Exdate_check 9.Stock_check_Add 10.no_list 0.Quit > 2
+
+Enter a name > milk
+Item info.
+No : 2
+Name : milk
+Stock : 20
+Expiration Date : 20200505
+
+Menu : 1.Create 2.Read 3.Update 4.Delete 5.List 6.Load file 7.Write file 8.Exdate_check 9.Stock_check_Add 10.no_list 0.Quit > 0
